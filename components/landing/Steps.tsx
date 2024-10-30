@@ -62,7 +62,7 @@ export function Steps() {
       title: "Generate Your Form",
       content: (
         <div>
-          <p className="text-text font-normal mb-4">
+          <p className="text-text font-normal mb-8">
             Describe your form’s purpose with a prompt, and our AI instantly
             builds a custom form for you.
           </p>
