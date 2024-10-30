@@ -266,7 +266,7 @@ const SubmissionsPage: React.FC = () => {
       )}
     >
       <SideBar />
-      <div className="flex flex-1 flex-col items-center m-20 w-full">
+      <div className="flex flex-1 flex-col items-center m-2 md:m-20 lg:m-20 w-full">
         <div className="flex flex-col gap-4 w-full">
           <h1 className="text-start text-2xl font-bold">Forms & Submissions</h1>
 

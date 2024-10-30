@@ -16,7 +16,7 @@ export function Features() {
   return (
     <div id="features" className="w-full mt-10 mx-auto px-10">
       <div className="max-w-7xl mx-auto py-6 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-10 text-text  max-w-4xl">
+        <h2 className="text-3xl md:text-4xl mb-10 text-text  max-w-4xl">
           Beyond just Form Editor
         </h2>
         <BentoGrid className="max-w-7xl mx-auto pb-10 h-fit">

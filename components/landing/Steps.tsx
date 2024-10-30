@@ -62,7 +62,7 @@ export function Steps() {
       title: "Generate Your Form",
       content: (
         <div>
-          <p className="text-text text-xs md:text-sm font-normal mb-8">
+          <p className="text-text font-normal mb-8">
             Describe your form’s purpose with a prompt, and our AI instantly
             builds a custom form for you.
           </p>
@@ -83,7 +83,7 @@ export function Steps() {
       title: "Customize and Share",
       content: (
         <div>
-          <p className="text-text text-xs md:text-sm font-normal mb-8">
+          <p className="text-text font-normal mb-8">
             Edit questions, add branding, and preview. Then, share via link or
             embed it on your website to start collecting responses.
           </p>
@@ -104,7 +104,7 @@ export function Steps() {
       title: "View Responses and Insights",
       content: (
         <div>
-          <p className="text-text text-xs md:text-sm font-normal mb-4">
+          <p className="text-text font-normal mb-4">
             Track responses in real-time on your dashboard, with AI-powered
             summaries to highlight key trends and insights.
           </p>

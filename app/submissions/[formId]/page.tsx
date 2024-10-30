@@ -71,9 +71,7 @@ const FormSubmissionsPage: React.FC<FormSubmissionsProps> = ({ params }) => {
   const deleteSubmission = async (submissionId: number) => {
     if (confirm("Are you sure you want to delete this submission?")) {
       try {
-        await db
-          .delete(submissions)
-          .where(eq(submissions.id, submissionId));
+        await db.delete(submissions).where(eq(submissions.id, submissionId));
         // Update the state to remove the deleted submission
         setSubmissionData((prevData) =>
           prevData.filter((submission) => submission.id !== submissionId)
@@ -105,11 +103,13 @@ const FormSubmissionsPage: React.FC<FormSubmissionsProps> = ({ params }) => {
           setFormTitle(parsedForm.formTitle || "Untitled Form");
         }
 
-        const processedData: FormSubmission[] = submissionsResult.map((item) => ({
-          id: item.id,
-          createdAt: new Date(item.createdAt),
-          submissionData: JSON.parse(item.submissionData),
-        }));
+        const processedData: FormSubmission[] = submissionsResult.map(
+          (item) => ({
+            id: item.id,
+            createdAt: new Date(item.createdAt),
+            submissionData: JSON.parse(item.submissionData),
+          })
+        );
 
         setSubmissionData(processedData);
       } catch (error) {
@@ -141,7 +141,7 @@ const FormSubmissionsPage: React.FC<FormSubmissionsProps> = ({ params }) => {
       )}
     >
       <SideBar />
-      <div className="flex flex-1 flex-col items-center m-20 w-full">
+      <div className="flex flex-1 flex-col items-center m-2 md:m-20 lg:m-20 w-full">
         <div className="flex flex-col gap-4 w-full">
           <div className="flex justify-between items-center">
             <h1 className="text-2xl font-bold">{formTitle} - Submissions</h1>
