@@ -23,7 +23,7 @@ export const Hero: React.FC = () => {
           </p>
           <div className="my-6 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link className="z-50 mt-10 pointer-events-auto" href="/createform">
-              <Button className="text-lg bg-accent shadow-md">Try For Free</Button>
+              <Button className="text-lg bg-accent shadow-md">Get Lifetime Free Access</Button>
             </Link>
           </div>
         </div>

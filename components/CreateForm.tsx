@@ -313,7 +313,8 @@ const CreateForm = () => {
       <Button
         onClick={onCreateForm}
         disabled={loading || !userInput.trim()}
-        className="w-full bg-transparent shadow-none text-xl disabled:text-text text-text"
+        className="w-full bg-transparent shadow-none text-3xl disabled:opacity-100 text-text font-semibold"
+        variant="ghost"
       >
         {loading ? "Generating..." : "Generate Custom Form"}
       </Button>
@@ -328,21 +329,21 @@ const CreateForm = () => {
         <Button
           onClick={() => createFixedForm(FIXED_FORMS.feedback)}
           disabled={loading}
-          className="w-full bg-transparent rounded-full border border-secondary text-white hover:bg-secondary"
+          className="w-full bg-transparent rounded-full border border-secondary text-white hover:bg-secondary shadow-sm"
         >
           Create Feedback Form
         </Button>
         <Button
           onClick={() => createFixedForm(FIXED_FORMS.contact)}
           disabled={loading}
-          className="w-full bg-transparent rounded-full border border-secondary text-white hover:bg-secondary"
+          className="w-full bg-transparent rounded-full border border-secondary text-white hover:bg-secondary shadow-sm"
         >
           Create Contact Form
         </Button>
         <Button
           onClick={() => createFixedForm(FIXED_FORMS.waitlist)}
           disabled={loading}
-          className="w-full bg-transparent rounded-full border border-secondary text-white hover:bg-secondary"
+          className="w-full bg-transparent rounded-full border border-secondary text-white hover:bg-secondary shadow-sm"
         >
           Create Waitlist Form
         </Button>

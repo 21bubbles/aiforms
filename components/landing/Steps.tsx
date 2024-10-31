@@ -73,7 +73,7 @@ export function Steps() {
               width="1130"
               height="1240"
               unoptimized
-              className="border border-secondary rounded-md"
+              className="border border-secondary rounded-md shadow-md"
             />
           </div>
         </div>
@@ -94,7 +94,7 @@ export function Steps() {
               width="1130"
               height="1240"
               unoptimized
-              className="border border-secondary rounded-md"
+              className="border border-secondary rounded-md shadow-md"
             />
           </div>
         </div>
@@ -115,7 +115,7 @@ export function Steps() {
               width="1130"
               height="1240"
               unoptimized
-              className="border border-secondary rounded-md"
+              className="border border-secondary rounded-md shadow-md"
             />
           </div>
         </div>

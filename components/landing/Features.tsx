@@ -44,7 +44,7 @@ const items = [
     description:
       "Instantly generate customized forms by simply entering a prompt—no setup required.",
     header: (
-      <div className="flex flex-1 w-full h-full items-center justify-center bg-[url('/create-form.png')] bg-cover rounded-lg shadow-md"></div>
+      <div className="flex flex-1 w-full h-full items-center justify-center bg-[url('/create-form.png')] bg-cover rounded-lg shadow-md border border-secondary"></div>
     ),
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
@@ -53,7 +53,7 @@ const items = [
     description:
       "Personalize fields, design, and branding with real-time previews for a tailored look.",
     header: (
-      <div className="flex flex-1  w-full h-full items-center justify-center bg-[url('/edit.png')] bg-cover rounded-lg shadow-md"></div>
+      <div className="flex flex-1  w-full h-full items-center justify-center bg-[url('/edit.png')] bg-cover rounded-lg shadow-md border border-secondary"></div>
     ),
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
@@ -62,7 +62,7 @@ const items = [
     description:
       "Publish forms and share via link, QR code, or embed directly on your website with ease.",
     header: (
-      <div className="flex flex-1  w-full h-full items-center justify-center bg-[url('/share.png')] bg-cover rounded-lg shadow-md"></div>
+      <div className="flex flex-1  w-full h-full items-center justify-center bg-[url('/share.png')] bg-cover rounded-lg shadow-md border border-secondary"></div>
     ),
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
@@ -73,7 +73,7 @@ const items = [
       "Quickly analyze and summarize responses with AI to identify trends and key insights.",
     header: (
       //   <div className="flex flex-1  w-full h-full items-center justify-center bg-[url('/submissions.png')] bg-cover rounded-lg shadow-sm"></div>
-      <div className="flex flex-1  w-full h-full items-center justify-center bg-background rounded-lg shadow-md">
+      <div className="flex flex-1  w-full h-full items-center justify-center bg-background rounded-lg shadow-md border border-secondary">
         coming soon..
       </div>
     ),
@@ -84,7 +84,7 @@ const items = [
     description:
       "Track responses in one place with real-time updates and organized insights.",
     header: (
-      <div className="flex flex-1  w-full h-full items-center justify-center bg-[url('/submissions.png')] bg-cover rounded-lg shadow-md"></div>
+      <div className="flex flex-1  w-full h-full items-center justify-center bg-[url('/submissions.png')] bg-cover rounded-lg shadow-md border border-secondary"></div>
     ),
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
