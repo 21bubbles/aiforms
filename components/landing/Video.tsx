@@ -12,7 +12,7 @@ const Video = () => {
           className="w-full h-full rounded-xl"
         ></iframe>
       </div> */}
-      <video width="1130" height="1240" autoPlay loop muted className="border border-accent rounded-lg shadow-md">
+      <video width="1130" height="1240" autoPlay loop muted className="border border-neutral-500 rounded-lg shadow-md">
         <source src="/2x-demo.mp4" type="video/mp4" />
         {/* <track
         src="/path/to/captions.vtt"

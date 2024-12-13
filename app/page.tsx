@@ -21,6 +21,14 @@ export default function Home() {
       <Steps />
       <Features />
       <Footer />
+      <iframe
+        src="https://aiforms.21bubbles.com//aiform/107"
+        width="100%"
+        height="600px"
+        frameBorder="0"
+        allowFullScreen
+        title="Embedded Form"
+      ></iframe>
     </div>
   );
 }
